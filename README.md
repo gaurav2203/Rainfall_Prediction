@@ -1,3 +1,4 @@
+![Image](static/rain_banner.jpg)
 # Rainfall_Prediction 
 This app predicts if tomorrow is going to rain or not. 
 This prediction is done with the help of various inputs entered by the user such as: Location, Humidity, Temprature, Pressure, etc.
@@ -34,6 +35,10 @@ It can be a great tool if you have to carry an umbrella if are in Australia.
     - Classification Report
     - AUC Curve
 
+## EDA
+![Correlation](static/heatmap.png)
+
+
 ## Model Metrics
 Algorithm  | Accuracy | AUC
 ------------- | ------------- | ------
@@ -43,7 +48,8 @@ LogisticRegression | 0.77 | 0.85
 KNeighborsClassifier | 0.75 | 0.79
 XGBClassifier | 0.86 | 0.88
 
-
+![Metrics of CatBoost Classifier](static/cat_metrics.png)
+![AUC Curve of CatBoost Classifier](static/auc_cat.jpg)
 
 The final metrics used is AUC.
 And the model is **CatBoost Classifier** since it hast the highest **AUC score of 89%**
@@ -89,3 +95,5 @@ Start the server
   streamlit run app.py
 ```
 
+## Streamlit Outpput Preview
+![Gif](static/output.gif)
