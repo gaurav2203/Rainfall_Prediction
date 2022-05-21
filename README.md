@@ -95,5 +95,5 @@ Start the server
   streamlit run app.py
 ```
 
-## Streamlit Outpput Preview
+## Streamlit Output Preview
 ![Gif](static/output.gif)
